@@ -19,7 +19,7 @@ then
   echo       - iPhoneSim4s          - iPhoneSim5     - iPhoneSim5s
   echo       - iPhoneSim6Plus
   echo   \<loginPassword\> - the password to use for log in operations \(for zumotestuser account\)
-  echo   \<iOSsdkZip\> is the zip file location of the framework to test against (optional)
+  echo   \<iOSsdkZip\> is the zip file location of the framework to test against \(optional\)
   exit 1
 fi
 
