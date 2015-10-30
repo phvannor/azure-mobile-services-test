@@ -60,7 +60,7 @@ if [ "$DEVICE_CMD_ARG" == "iPad" ]; then
   APP_NAME=ZumoE2ETestApp
 fi
 
-if [ "$DEVICE_CMD_ARG" == "iPadSim" ]; then
+if [ "$DEVICE_CMD_ARG" == "iPad2Sim" ]; then
   echo Using iPad 2 Simulator
   export DEVICE_ARG=iPad\ 2\ \(9.1\)
   APP_NAME=$DIR/ZumoE2ETestApp/build/Release-iphonesimulator/ZumoE2ETestApp.app
@@ -72,13 +72,13 @@ if [ "$DEVICE_CMD_ARG" == "iPadSimAir" ]; then
   APP_NAME=$DIR/ZumoE2ETestApp/build/Release-iphonesimulator/ZumoE2ETestApp.app
 fi
 
-if [ "$DEVICE_CMD_ARG" == "iPadSimAir" ]; then
+if [ "$DEVICE_CMD_ARG" == "iPadSimAir2" ]; then
   echo Using iPad Air 2 Simulator
   export DEVICE_ARG=iPad\ Air\ 2\ \(9.1\)
   APP_NAME=$DIR/ZumoE2ETestApp/build/Release-iphonesimulator/ZumoE2ETestApp.app
 fi
 
-if [ "$DEVICE_CMD_ARG" == "iPadSimAir" ]; then
+if [ "$DEVICE_CMD_ARG" == "iPadSimPro" ]; then
   echo Using iPad Pro Simulator
   export DEVICE_ARG=iPad\ Pro\ \(9.1\)
   APP_NAME=$DIR/ZumoE2ETestApp/build/Release-iphonesimulator/ZumoE2ETestApp.app
