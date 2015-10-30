@@ -44,7 +44,7 @@ fi
 
 unzip -o sdk.zip
 
-xcodebuild -sdk iphonesimulator8.3 || exit 1
+xcodebuild -sdk iphonesimulator9.1 || exit 1
 # xcodebuild -sdk iphoneos7.1
 popd
 
