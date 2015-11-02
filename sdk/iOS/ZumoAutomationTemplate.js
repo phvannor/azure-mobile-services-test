@@ -39,7 +39,7 @@ UIATarget.onAlert = function(alert) {
 	return false;
 }
 
-setMobileService(app, window, mobileServiceName, mobileServiceKey);
+setMobileService(app, window, mobileServiceName);
 
 startTests();
 
@@ -63,10 +63,9 @@ while (!done) {
 
 backToStart();
 
-function setMobileService(app, window, appUrl, appKey) {
+function setMobileService(app, window, appUrl) {
 	var values = {
 		MobileServiceURL: appUrl,
-		MobileServiceKey: appKey,
 		ClientId: clientId,
 		ClientSecret: clientSecret,
 		RunId: runId
