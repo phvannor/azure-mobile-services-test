@@ -14,7 +14,6 @@ userNames[AAD] = 'zumotestuser@zumoe2e.onmicrosoft.com';
 var password = '--AUTH_PASSWORD--';
 
 var mobileServiceName = '--APPLICATION_URL--';
-var mobileServiceKey = '--APPLICATION_KEY--';
 var clientId = '--CLIENT_ID--';
 var clientSecret = '--CLIENT_SECRET--';
 var runId = '--RUN_ID--';
